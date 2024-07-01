@@ -1,0 +1,46 @@
+main, body {
+  background-color: #A9B2FF;
+}
+
+.side {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  overflow: hidden;
+  position: absolute;
+}
+
+.title {
+  grid-area: 1/ 2;
+}
+
+.side .title {
+  color: white;
+  font-family: "Comic Sans", cursive;
+  font-size: 8vw;
+  margin: 0px, 15vw;
+  width: 70vw;
+}
+
+.side .fancy {
+  font-family: "Lobster", cursive;
+  font-size: 1.3em;
+  line-height: 0.8em;
+}
+
+.haha {
+  top: 60%;
+}
+
+.catpage {
+  background-image: url("/repeating-cat.png");
+  height: 5000px;
+  width: 100%;
+  padding: 0px;
+  margin-left: 0px;
+  border: 0px;
+}
